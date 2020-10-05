@@ -1,4 +1,26 @@
-s.content{
+.dialogs {
+    display: grid;
+
+    grid-template-columns:2fr 10fr;
+}
+
+s.content {
     grid-area: c;
     background: darkkhaki;
+}
+
+
+.dialogsItems  {
+    padding: 10px;
+}
+.dialogsItems .active{
+    color: gold;
+}
+
+.messages {
+    padding: 10px;
+}
+
+.messages .message {
+
 }

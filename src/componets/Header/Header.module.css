@@ -1,8 +1,11 @@
 .header{
     grid-area: h;
-    background: beige;
+    background: #444;
+
 }
 .header img{
-    width: 75px ;
-    background: darkkhaki;
+    width: 6em;
+
+
+
 }

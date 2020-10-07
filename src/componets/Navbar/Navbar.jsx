@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./Navbar.module.css";
+import b from "./Navbar.module.css";
 import {NavLink} from "react-router-dom";
 
 const Navbar = () => {
@@ -20,6 +21,9 @@ const Navbar = () => {
             <div className={classes.item}>
                 <a>Main content</a>
             </div>
+            <div><h3>Friends</h3></div>
+            <div className={classes.active}>
+                <NavLink to="/music" ><img src="https://ak.picdn.net/contributors/3359672/avatars/thumb.jpg" /></NavLink></div>
         </nav>)
 }
 export default Navbar

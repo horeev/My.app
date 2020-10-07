@@ -2,11 +2,17 @@
     grid-area: n;
     background: #F4716A;
     padding: 12px;
+
+
 }
 .item a{
     color: white;
     text-decoration: none;
+
+
 }
 .item a.active{
     color: gold;
+    width: 20px;
+
 }
